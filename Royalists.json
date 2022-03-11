@@ -1,0 +1,190 @@
+{
+  "catalogue": {
+    "name": "Royalists",
+    "id": "22af-c294-06db-99af",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "2a98-0be2-053b-f7e1",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Arcanists",
+        "id": "1c34-1113-ce90-8d3a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "97c9-96c8-fd65-5935",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Chaplain",
+        "id": "55ac-310d-91f3-8744",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6fc9-b308-a4da-9367",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Commander",
+        "id": "7b63-2a16-18cf-ddbd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "00a3-350b-5484-8004",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "498a-e4f4-8a21-4281",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Field Gun",
+        "id": "8e60-224d-dbfe-6f1a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8fe8-9293-fa30-4685",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Foot Knight",
+        "id": "2ff0-5887-6ca8-b6dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cb93-0a38-93a6-6e8d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Cavalry",
+        "id": "eaf2-262b-ff6e-7f32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d1a8-9e66-5739-5838",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Knights",
+        "id": "2a38-3c9a-77cc-7697",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c3be-4c6b-d743-c714",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jagers",
+        "id": "13a3-f617-5fd2-77d5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cdba-42a4-03a0-fc90",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Light Cavalry",
+        "id": "9d7a-436f-cf52-be8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0062-85e4-0431-f4d1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Line Infantry",
+        "id": "67bc-058c-e78f-f4cc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4f8f-386c-0e88-d258",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Officer",
+        "id": "834b-4999-ac2a-45b2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "109d-5ef6-5b77-2bf2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Shock Troopers",
+        "id": "c624-372f-5314-d785",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e8e6-bdc7-941e-b99f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sorcerer",
+        "id": "5347-9ea3-c2b8-0b79",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "867f-7741-a286-1d17",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Royal Magician",
+        "id": "c16e-2c5f-4c97-c792",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bcca-46ed-7064-a495",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Royal Marines",
+        "id": "531c-06da-b6d6-3a46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1e7f-05f7-53f4-65df",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Royal Hussars",
+        "id": "1e1e-90d4-2ca1-d648",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "eca3-19ad-4204-4052",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Battle Kite",
+        "id": "4a23-de38-df59-e889",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0e7d-2b47-75fb-fe3f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Mortar Teams",
+        "id": "98c3-e2f0-42f5-824a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9935-2727-c78f-980d",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}

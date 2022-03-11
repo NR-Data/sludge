@@ -1,0 +1,190 @@
+{
+  "catalogue": {
+    "name": "Cultists",
+    "id": "40c0-2c5f-10b2-5b10",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "2a98-0be2-053b-f7e1",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Arcanists",
+        "id": "f00f-8033-4cee-59c9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "97c9-96c8-fd65-5935",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Chaplain",
+        "id": "9024-899e-6eb5-bc3e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6fc9-b308-a4da-9367",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Commander",
+        "id": "ed15-8d83-5ab1-f114",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "00a3-350b-5484-8004",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f0ec-42de-5dcd-e211",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Field Gun",
+        "id": "975a-68a0-779f-3b4d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8fe8-9293-fa30-4685",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Foot Knight",
+        "id": "0e52-362d-5b18-4b77",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cb93-0a38-93a6-6e8d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Cavalry",
+        "id": "b38a-178c-9936-db80",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d1a8-9e66-5739-5838",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Knights",
+        "id": "e47b-59fa-f2a7-1cb8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c3be-4c6b-d743-c714",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jagers",
+        "id": "3e54-4190-c685-f0ba",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cdba-42a4-03a0-fc90",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Light Cavalry",
+        "id": "92a6-931f-f795-ba04",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0062-85e4-0431-f4d1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Line Infantry",
+        "id": "cfae-8c4f-21bb-4797",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4f8f-386c-0e88-d258",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Officer",
+        "id": "daf6-cf46-12c8-e301",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "109d-5ef6-5b77-2bf2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Shock Troopers",
+        "id": "56d7-a790-9dce-7bf3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e8e6-bdc7-941e-b99f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sorcerer",
+        "id": "a3f5-815d-2e99-bb4a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "867f-7741-a286-1d17",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Priest of the Manticore",
+        "id": "d787-2492-3037-692e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6887-ea1d-3e3b-a218",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cultist Throngs",
+        "id": "90c8-1094-7796-6faf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3745-fa8f-f857-6ccf",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Zealots",
+        "id": "8281-82e6-7726-89e9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "32d8-a027-812a-ac65",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Crusaders",
+        "id": "2485-cf5e-316e-7478",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5543-31cf-be2e-147a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Enslaved Giant",
+        "id": "b0c0-1198-4ba2-136d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b107-e274-50b8-1b4e",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}
